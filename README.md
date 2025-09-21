@@ -189,7 +189,7 @@ if "sales" in df.columns and "sale_price" not in df.columns:
 print(df.head())
 ```
 
-> This corrects the earlier calculation of `profit` that referenced non-existent `sale_price` / `cost_price`. The Kaggle dataset already contains `profit`. fileciteturn0file0
+> This corrects the earlier calculation of `profit` that referenced non-existent `sale_price` / `cost_price`. The Kaggle dataset already contains `profit`.
 
 ---
 
@@ -283,7 +283,7 @@ FROM cte2
 ORDER BY yoy_delta DESC;
 ```
 
-> These queries align with your `sql_code.sql`. They depend on the column `sale_price`, which the ETL ensures exists by mirroring the Kaggle column `Sales`. fileciteturn0file1
+> These queries align with your `sql_code.sql`. They depend on the column `sale_price`, which the ETL ensures exists by mirroring the Kaggle column `Sales`.
 
 ---
 
