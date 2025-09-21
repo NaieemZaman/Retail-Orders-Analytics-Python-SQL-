@@ -287,14 +287,6 @@ ORDER BY yoy_delta DESC;
 
 ---
 
-## 🧭 Portfolio Tips
-
-- Add a short **project story** to the top of your README: business questions, what you discovered, and an insight summary.
-- Include screenshots: an ERD (simple), a preview of the table, and result samples of the queries.
-- If possible, attach a **Power BI/Tableau** one-pager built on the SQL output.
-
----
-
 ## 🧩 Troubleshooting
 
 - **Kaggle API errors**: Verify `kaggle.json` path/permissions.
